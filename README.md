@@ -10,3 +10,9 @@ Este proyecto semestral esta orientado a mejorar las practicas en entorno de jav
 | Anton Knittel     | Desarrllador y lider |
 | Marcelo Crisostomo| Docente a cargo      |
 ---
+## Microservicios
+
+- UsuarioService (puerto 8081)
+- ProductoService (puerto 8082)
+- BoletaService (puerto 8083)
+---
