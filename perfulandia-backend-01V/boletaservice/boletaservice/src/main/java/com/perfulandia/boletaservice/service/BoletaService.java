@@ -1,11 +1,15 @@
 package com.perfulandia.boletaservice.service;
-import com.perfulandia.boletaservice.model.*;
+
+import com.perfulandia.boletaservice.model.Boleta;
+import com.perfulandia.boletaservice.model.Producto;
+import com.perfulandia.boletaservice.model.Usuario;
 import com.perfulandia.boletaservice.repository.BoletaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
 import java.util.List;
+
 @Service
 public class BoletaService {
     private final BoletaRepository repo;
@@ -21,12 +25,15 @@ public class BoletaService {
     }
 
     public Boleta emitirBoleta(Long idUsuario, Long idProducto) {
-        // Llamada a usuarioservice
-        Usuario usuario = restTemplate.getForObject("http://localhost:8081/api/usuarios/" + idUsuario, Usuario.class);
+        // URLS de los otros servicios (ajusta según tus necesidades)
+        String usuarioServiceUrl = "http://localhost:8081/api/usuarios/" + idUsuario;
+        String productoServiceUrl = "http://localhost:8082/api/productos/" + idProducto;
 
-        // Llamada a productservice
-        Producto producto = restTemplate.getForObject("http://localhost:8082/api/productos/" + idProducto, Producto.class);
+        // Obtener datos del usuario y producto
+        Usuario usuario = restTemplate.getForObject(usuarioServiceUrl, Usuario.class);
+        Producto producto = restTemplate.getForObject(productoServiceUrl, Producto.class);
 
+        // Crear y guardar la boleta
         Boleta boleta = Boleta.builder()
                 .nombreUsuario(usuario.getNombre())
                 .correoUsuario(usuario.getCorreo())
