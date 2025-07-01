@@ -11,10 +11,9 @@ public class BoletaserviceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BoletaserviceApplication.class, args);
 	}
+
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
-
-
 }

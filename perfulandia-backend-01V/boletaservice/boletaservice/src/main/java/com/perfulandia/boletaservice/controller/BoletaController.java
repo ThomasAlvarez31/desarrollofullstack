@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/boletas")
 public class BoletaController {
-
     private final BoletaService service;
 
     public BoletaController(BoletaService service) {
