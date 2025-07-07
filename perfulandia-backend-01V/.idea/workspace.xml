@@ -5,43 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d09d44-fd80-4843-b033-48d3492bf86f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/boletaservice/boletaservice/src/test/java/com/perfulandia/boletaservice/controller/BoletaControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/perfulandia-backend-01V.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/boletaservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletaservice/boletaservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boletaservice/boletaservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boletaservice/boletaservice/src/main/java/com/perfulandia/boletaservice/controller/BoletaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boletaservice/boletaservice/src/main/java/com/perfulandia/boletaservice/controller/BoletaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/productservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/usuarioservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -67,14 +37,14 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.BoletaserviceApplication.executor&quot;: &quot;Profiler#1&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tomy/Downloads/fullstack1/perfulandia-backend-01V&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gokus/OneDrive/Escritorio/perfulandia-backend-01V/perfulandia-backend-01V&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -93,8 +63,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +80,8 @@
       <workItem from="1751306766278" duration="88000" />
       <workItem from="1751306864667" duration="721000" />
       <workItem from="1751319472939" duration="91000" />
+      <workItem from="1751852764734" duration="107000" />
+      <workItem from="1751852883294" duration="68000" />
     </task>
     <servers />
   </component>

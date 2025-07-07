@@ -36,10 +36,10 @@ public class BoletaController {
         return service.listar();
     }
 
-    @Operation(summary = "Emitir boleta")
+    @Operation(summary = "Emitir boleta", description = "Genera una boleta para un usuario y un producto")
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "Boleta emitida"),
-            @ApiResponse(responseCode = "400", description = "Datos inválidos")
+            @ApiResponse(responseCode = "400", description = "Error al emitir boleta, intente nuevamente")
     })
     @PostMapping("/emitir")
     public Boleta emitir(@RequestParam Long usuarioId, @RequestParam Long productoId) {
