@@ -7,7 +7,7 @@ Este proyecto semestral esta orientado a mejorar las practicas en entorno de jav
 | Nombre            | Rol                  |
 |-------------------|----------------------|
 | Thomas Martinez   | Desarrollador        |
-| Anton Knittel     | Desarrllador y lider |
+| Anton Knittel     | Desarrollador y lider|
 | Marcelo Crisostomo| Docente a cargo      |
 ---
 ## Microservicios
@@ -16,3 +16,11 @@ Este proyecto semestral esta orientado a mejorar las practicas en entorno de jav
 - ProductoService (puerto 8082)
 - BoletaService (puerto 8083)
 ---
+Repositorio boleta para despliegue
+https://github.com/ThomasAlvarez31/boletaservice.git 
+
+Repositorio usuario para despliegue
+https://github.com/ThomasAlvarez31/usuarioservice.git
+
+Repositorio producto para despliegue
+https://github.com/ThomasAlvarez31/productservice.git
